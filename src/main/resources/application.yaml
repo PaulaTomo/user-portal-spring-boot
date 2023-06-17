@@ -1,0 +1,12 @@
+spring:
+  profile:
+    active: local
+    datasource:
+      driver-class-name: org.postresql.Driver
+      jpa:
+        database: postgresql
+    database-platform:
+      properties:
+        hibernate:
+          dialect: ${spring.jpa.database-platform}
+          
