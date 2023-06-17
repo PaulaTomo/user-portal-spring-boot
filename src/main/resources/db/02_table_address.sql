@@ -54,4 +54,5 @@ values ('Dominican Republic', 'East', 'Salsipuedes', 'Packers', '993', '1005');
 insert into address (country, region, city, street, door_number, postal_code)
 values ('China', 'North', 'Gangmian', 'Drewry', '444', '9214');
 
-SELECT * FROM address;
+SELECT *
+FROM address;

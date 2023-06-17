@@ -19,4 +19,5 @@ values (5, 'ADMIN');
 
 
 
-SELECT * FROM role;
+SELECT *
+FROM role;

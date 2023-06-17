@@ -13,7 +13,7 @@ import lombok.*;
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_address_users")
-    @SequenceGenerator(name = "seq_address_users",allocationSize = 1)
+    @SequenceGenerator(name = "seq_address_users", allocationSize = 1)
     @Column(name = "id")
     private Long id;
     @Column(name = "country")

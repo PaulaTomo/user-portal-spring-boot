@@ -6,9 +6,9 @@ CREATE TABLE users
     first_name VARCHAR(65),
     last_name  VARCHAR(65),
     username   VARCHAR(45)        NOT NULL,
-    password   VARCHAR(45)       NOT NULL,
+    password   VARCHAR(45)        NOT NULL,
     email      VARCHAR(65) UNIQUE NOT NULL,
-    fk_role    BIGINT          NOT NULL DEFAULT 1,
+    fk_role    BIGINT             NOT NULL DEFAULT 1,
     fk_address BIGINT UNIQUE,
 
     CONSTRAINT users_pk PRIMARY KEY (user_id),
@@ -56,4 +56,5 @@ values (1, 19, 'Carlynne', 'Eggleson', 'cegglesoni', 'xV6<B*!|F8.', 'cegglesoni@
 insert into users (fk_role, fk_address, first_name, last_name, username, password, email)
 values (1, 20, 'Morley', 'McKea', 'mmckeaj', 'rX4,|)wG&z.$h8*', 'mmckeaj@hud.gov');
 
-SELECT * FROM users;
+SELECT *
+FROM users;

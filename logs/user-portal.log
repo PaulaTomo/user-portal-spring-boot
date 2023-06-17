@@ -163,3 +163,36 @@ Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-valid
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.9.jar:6.0.9]
 	... 25 common frames omitted
 
+2023-06-17T01:57:22.949+02:00  INFO 5476 --- [restartedMain] c.e.u.UserAddressPortalApplication       : Starting UserAddressPortalApplication using Java 17.0.6 with PID 5476 (D:\Curs Java\projects\UserAddressPortal\target\classes started by 993827 in D:\Curs Java\projects\UserAddressPortal)
+2023-06-17T01:57:22.952+02:00  INFO 5476 --- [restartedMain] c.e.u.UserAddressPortalApplication       : The following 1 profile is active: "local"
+2023-06-17T01:57:23.002+02:00  INFO 5476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-17T01:57:23.003+02:00  INFO 5476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-17T01:57:23.499+02:00  INFO 5476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-17T01:57:23.547+02:00  INFO 5476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-06-17T01:57:24.008+02:00  INFO 5476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-17T01:57:24.016+02:00  INFO 5476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-17T01:57:24.017+02:00  INFO 5476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-17T01:57:24.073+02:00  INFO 5476 --- [restartedMain] o.a.c.c.C.[.[localhost].[/user-portal]   : Initializing Spring embedded WebApplicationContext
+2023-06-17T01:57:24.074+02:00  INFO 5476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2023-06-17T01:57:24.103+02:00  INFO 5476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-17T01:57:24.288+02:00  INFO 5476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3fcdb73f
+2023-06-17T01:57:24.289+02:00  INFO 5476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-17T01:57:24.300+02:00  INFO 5476 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/user_portal'
+2023-06-17T01:57:24.396+02:00  INFO 5476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-17T01:57:24.443+02:00  INFO 5476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-17T01:57:24.445+02:00  INFO 5476 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-17T01:57:24.583+02:00  INFO 5476 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-17T01:57:24.719+02:00  INFO 5476 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-17T01:57:24.765+02:00  INFO 5476 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@463347c
+2023-06-17T01:57:24.982+02:00  INFO 5476 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-17T01:57:25.714+02:00  INFO 5476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-17T01:57:25.760+02:00  INFO 5476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-17T01:57:26.278+02:00  INFO 5476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-17T01:57:26.452+02:00  INFO 5476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/user-portal'
+2023-06-17T01:57:26.460+02:00  INFO 5476 --- [restartedMain] c.e.u.UserAddressPortalApplication       : Started UserAddressPortalApplication in 3.985 seconds (process running for 4.731)
+2023-06-17T01:58:16.854+02:00  INFO 5476 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/user-portal]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-17T01:58:16.854+02:00  INFO 5476 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-17T01:58:16.855+02:00  INFO 5476 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-17T02:33:20.800+02:00  INFO 5476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-17T02:33:20.803+02:00  INFO 5476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-17T02:33:20.807+02:00  INFO 5476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
