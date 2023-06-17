@@ -1,4 +1,4 @@
 package com.example.useraddressportal.controller;
 
-public class UsersControl {
+public class UsersController {
 }
